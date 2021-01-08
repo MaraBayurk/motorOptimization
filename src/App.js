@@ -107,6 +107,7 @@ function App() {
           <div className="App-form__imgContainer" >
             <img src={imagen} />
           </div>
+          
           <div className="App-form__containersInput">
             <label for="projectName">projectName</label>
             <input readOnly={read} type="text" id="projectName" name="projectName" onChange={handleChangeContact} />
